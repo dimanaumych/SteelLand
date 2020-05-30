@@ -1,0 +1,9 @@
+$('.back-call').click(()=>{
+$('.popup').fadeIn();
+})
+$('.button-footer').click(()=>{
+    $('.popup').fadeIn();
+    })
+$('.close-popup').click(()=>{
+    $('.popup').fadeOut(); 
+})

@@ -1,0 +1,126 @@
+.popup{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  
+  }
+  .close-popup{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .popup-content{
+    width: 70%;
+    height: auto;
+    min-height: 40%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem 3rem;
+    background-color: white;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .popup-title{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+      font-size: 2rem;
+      /* font-weight: bold; */
+    
+  }
+  .popup-text{
+    margin-top: 20px;
+    word-break: normal;
+    white-space: normal;
+    font-family: 'Montserrat';
+      font-size: .9rem;
+  }
+  .popup-form{
+    margin-top: 40px;
+  }
+  .popup-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputs_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .inputs_wrapper input{
+      border: none;
+      border-bottom:1px solid #CFA166;
+      padding: 7px;
+      font-family: 'Montserrat';
+      font-size: .9rem;
+  }
+  .call-back-form-button{
+      background-color: black;
+      color: white;
+      text-align: center;
+      width: 40%;
+      height: 40px;
+      line-height: 40px;
+      outline: none !important;
+      border: none;
+      cursor: pointer;
+      margin-top: 5%;
+      font-family: 'Montserrat';
+      font-size: .9rem;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  
+  .phone-input{
+    width: 30%;
+  }
+  .comment-input{
+    width: 60%;
+  }
+
+  @media (max-width: 769px) {
+    .inputs_wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .inputs_wrapper input{
+          width: 70%;
+          margin-top: 5px;
+          margin-bottom: 5px;
+      }
+      
+    }
+    @media (max-width: 445px) {
+        .inputs_wrapper{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .inputs_wrapper input{
+              width: 90%;
+              margin-top: 2px;
+              margin-bottom: 2px;
+          }
+          .call-back-form-button{
+              width: 60%;
+          }
+        }

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Карточка товара</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/card_product.css">
+    <link rel="stylesheet" href="css/popup-call-back.css">
+    <link rel="stylesheet" href="css/popup-calculate.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Mobile navigation -->
+        <div class="left_sidebar">
+          <a href="#" class="menu-btn" ><img src="images/burger_menu/menu.png" class="menu_button"></a>
+          <a href="#" class="cancel-btn"><img src="images/burger_menu/cancel.png" class="cancel_button"></a>
+          <nav class="codrops-demos_sidebar">
+            <a  href="index.html">Главная</a>
+            <a class="current-demo" href="catalog.html">Каталог</a>
+            <a  href="news.html">Акции и новости</a>
+            <a href="contact.html">Контакты</a>
+            <div class="header-language-mobile"><p>РУС</p><img src="images/down_arrow.png"></div>
+            <!-- class="current-demo" -->
+          </nav>
+      
+        </div>
+        <a class="logo" href="index.html"><img  src="images/logo.png"/></a>
+        <ul class = "header-menu">
+          <li><a href = "index.html">Главная</a></li>
+          <li><a href ="catalog.html">Каталог</a></li>
+          <li><a href = "news.html">Акции и новости</a></li>
+          <li><a href = "contact.html">Контакты</a></li>
+        </ul>
+        <div class="header-contact">
+          <div class="header-language"><p>РУС</p><img id = "header-language-arrow" src="images/down_arrow.png"></div>
+          <div class="header-number"><p>098 718 90 96</p><img id = "header-number-arrow" src="images/down_arrow.png">
+            <div class="popap-wrapper">
+              <div class="info-popap">
+                <h3>КИЕВ</h3>
+                <p>098 718 90 96</p>
+                <p>067 581 85 87</p>
+              </div>
+              <div class="info-popap">
+                <h3>ОДЕССА</h3>
+                <p>098 718 90 96</p>
+                <p>067 581 85 87</p>
+              </div>
+            </div>
+          </div>
+          <div class="back-call">Обратный звонок</div>
+        </div>
+        <script type=""></script>
+      </header>
+
+<div class="popup">
+		<div class="popup-content">
+			<img src="images/pop-up/cancel.png" class="close-popup">
+			<p class="popup-title">Желаете получить консультацию?</p>
+			<p class="popup-text">Оставьте ваши данные и наш менеджер проконсультирует вас</p>
+			<div class="popup-form">
+				<form action="#">
+					<div class="inputs_wrapper">
+					<input placeholder="Номер телефона" class="phone-input">
+					<input placeholder="Оставьте комментарий" class="comment-input">
+					</div>
+					<button type ='button' class="call-back-form-button">Отправить</button>
+				</form>
+			</div>
+	</div>
+</div>
+
+<div class="popup-calculate">
+    <div class="popup-calculate-content">
+        <img src="images/pop-up/cancel.png" class="close-popup">
+        <p class="popup-calculate-title">Поможем вам осуществить предзаказ</p>
+        <p class="popup-calculate-text">Оставьте ваши данные и наш менеджер проконсультирует вас</p>
+        <div class="popup-calculate-form">
+            <form action="#">
+                <div class = "inputs-calculate-wrapper">
+                <input placeholder = "Ващ email" class = "email-calculate-input">
+                <input placeholder = "Ваше имя" class = "name-calculate-input">
+                <input placeholder = "Телефон" class = "phone-calculate-input">
+                </div>
+                <input placeholder = "Ваш комментарий" class="comment-calculate-input">
+                <button type ='button' class="calculate-form-button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+<div class="main_content">
+<div class="pages_route">
+    <p>Главная</p><p style="margin-left: 10px; margin-right: 10px; color:black; "> > </p><p>Каталог</p><p style="margin-left: 10px; margin-right: 10px; color:black; "> > </p><p>Кровати</p><p style="margin-left: 10px; margin-right: 10px; color:black; "> > </p><p style="color: #CFA166;">Кровать АР-Р157</p>
+</div>
+    <p class="product_title">Кровать АР-Р157</p>
+
+    <div class="item_wrapper">
+        <div class="item_images">
+            <div class="item_main_image_wrapper">
+            <img class ="item_main_image" src="images/products_images/Bed.png">
+            </div>
+            <div class="down_images">
+                <img src="images/products_images/Bed.png">
+                <img src="images/products_images/bed_2.png">
+                <img src="images/products_images/bed_3.png">
+            </div>
+            
+        </div>
+        <div class="item_params">
+            <p class="item_params_title">В наличии</p>
+            <div class="params_wrapper">
+                <p>Выберите размер</p>
+                <div class="select_wrapper">
+                    <select size="1">
+                        <option>1800 x 2200</option>
+                        <option>1800 x 2000</option>
+                        <option>1600 x 2000</option>
+                    <select>
+                </div>
+        </div>
+
+        <div class="params_wrapper">
+            <p>Выберите обивку</p>
+            <div class="select_wrapper">
+            <select size="1">
+                <option>Кожа мангуста</option>
+                <option>Металл</option>
+                <option>Шерсть жирафа</option>
+            <select>
+            </div>   
+    </div>
+    <div class="params_wrapper">
+        <p>Выберите цвет</p>
+        <div class="select_wrapper">
+        <select size="1">
+            <option>Белый</option>
+            <option>Серый</option>
+            <option>Черный</option>
+        <select>
+        </div>
+    </div>
+    <div class="price_wrapper">
+        <p class="price_text">От 13980 ГРН</p>
+        <div class="price_button">Просчет стоимости</div>
+        </div>
+    </div>
+    </div>
+    <div class="item_description">
+        <div class="description_menu_item">Описание</div>
+        <div class="params_menu_item">Характеристики</div>
+        
+    </div>
+    <div class="wrapper_params">
+        <p class="model_item">Кровать АР-Р157</p>
+        <div class="params_row">
+            <div class="params_name">
+            <p>Спальное место</p>
+            </div>
+            <p>1800x2100</p>
+            <p>1600x2000</p>
+        </div>
+        <div class="params_row">
+            <div class="params_name">
+            <p>Полный габаритный размер</p>
+            </div>
+            <div class="description_data">
+            <p>2130x2400х1050</p>
+            <p >1930х2410х1050</p>
+            </div>
+        </div>
+        <div class="params_row">
+            <div class="params_name">
+                <p >Изголовье (спинка кровати)</p>
+            </div>
+            <p class="description_data">Основание - деревянный каркас + мягкая часть + натуральная кожа</p>
+        </div>
+        <div class="params_row">
+            <div class="params_name">
+
+            <p>
+                Изножье и обратная сторона изголовья
+            </p>
+            </div>
+            <p class="description_data">Эко кожа</p>
+        </div>
+        <div class="params_row">
+            <div class="params_name">
+            <p>Подъемный механизм (ящик
+                для белья)</p>
+                </div>
+                <p class="description_data">Установка по желанию</p>
+        </div>
+        <div class="params_row">
+            <div class="params_name">
+                <p>Cерии кожи, производитель</p>
+                </div>
+                <p  class="description_data">“В” - натуральная кожа повышенной прочности. Итальянская фабрика
+                    Steel-Land </p>
+        </div>
+        <div class="params_row">
+            <div class="params_name"><p>Цвет</p>
+                </div>
+            <p class="description_data">по желанию, на выбор в сети салонах-магазинах Steel-Land</p>
+        </div>
+    </div>
+    <div class="product_description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In massa tempor nec feugiat. Non enim praesent elementum facilisis leo vel fringilla. Ultricies integer quis auctor elit sed vulputate. Euismod elementum nisi quis eleifend quam adipiscing vitae proin. Accumsan tortor posuere ac ut consequat semper viverra nam. Volutpat blandit aliquam etiam erat velit scelerisque in dictum non. Id nibh tortor id aliquet lectus proin. Maecenas ultricies mi eget mauris pharetra et. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Enim sit amet venenatis urna cursus eget nunc scelerisque.
+    
+            <p>Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Posuere sollicitudin aliquam ultrices sagittis. Est sit amet facilisis magna etiam tempor. Aliquet eget sit amet tellus cras adipiscing enim. Viverra accumsan in nisl nisi scelerisque eu. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Facilisis leo vel fringilla est ullamcorper eget nulla. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Non nisi est sit amet facilisis magna etiam tempor. Elit ut aliquam purus sit amet luctus venenatis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Tortor consequat id porta nibh. Pellentesque massa placerat duis ultricies lacus sed. Mi proin sed libero enim sed faucibus.</p>
+            
+            <p>Nullam non nisi est sit amet facilisis magna etiam tempor. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Nullam non nisi est sit. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Odio ut sem nulla pharetra diam sit. Fames ac turpis egestas integer eget aliquet nibh praesent. Pellentesque habitant morbi tristique senectus et netus et malesuada. Nec nam aliquam sem et tortor consequat id porta. Risus ultricies tristique nulla aliquet enim. Vulputate dignissim suspendisse in est ante in nibh. Amet luctus venenatis lectus magna fringilla urna. Fringilla ut morbi tincidunt augue interdum. Vel elit scelerisque mauris pellentesque pulvinar. In arcu cursus euismod quis. Neque vitae tempus quam pellentesque nec nam aliquam sem et. Platea dictumst vestibulum rhoncus est. Donec massa sapien faucibus et molestie. Aenean et tortor at risus viverra adipiscing at. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum.</p>
+            
+            <p>Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Vulputate dignissim suspendisse in est. Orci eu lobortis elementum nibh tellus. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Tortor condimentum lacinia quis vel eros donec ac odio. Enim lobortis scelerisque fermentum dui faucibus. Nascetur ridiculus mus mauris vitae ultricies. Aliquet eget sit amet tellus cras adipiscing. Interdum velit euismod in pellentesque massa placerat duis. In nisl nisi scelerisque eu ultrices. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Dignissim suspendisse in est ante in.</p>
+            
+            <p>Vitae semper quis lectus nulla at volutpat diam ut venenatis. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Sed viverra ipsum nunc aliquet bibendum. Pellentesque elit ullamcorper dignissim cras. Iaculis eu non diam phasellus vestibulum. Consectetur purus ut faucibus pulvinar. Ac tortor vitae purus faucibus ornare suspendisse sed. Posuere morbi leo urna molestie at elementum eu. Commodo elit at imperdiet dui accumsan sit amet. Odio pellentesque diam volutpat commodo sed. Enim blandit volutpat maecenas volutpat blandit. Laoreet sit amet cursus sit amet dictum sit amet justo. Lorem mollis aliquam ut porttitor leo. Suscipit tellus mauris a diam maecenas sed enim ut. Blandit volutpat maecenas volutpat blandit aliquam. Non blandit massa enim nec dui. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Semper eget duis at tellus at urna.</p>
+    </div>
+    <div class="slider_title_and_arrows_wrapper">
+        <p>Не забудьте купить</p>
+    <div class="slider-arrows">
+
+        <img  class="slider-arrow-left" src="images/slider_images/slider-left-arrow.png">
+        <img class="slider-arrow-right" src="images/slider_images/right-arrow-of-straight-thin-line%2010%20(1).png">
+    </div>
+    </div>
+    <div class="slider-wrapper">
+    <div class="slider"></div>
+    </div>
+    
+    <section class="wrapper-news">
+        <div class="wrapper-header-news">
+            <div class="wrapper-leftpart">
+                <p class="article-name">Акции и Новости</p>
+                <img src="images/line.png" class="button-line">
+            </div>
+            <div class="wrapper-rightpart">
+                <a href = "news.html"><p>Все новости</p></a>
+                <img src="images/news_wrapper/right-arrow-of-straight-thin-line.png" class="news-arrow">
+            </div>
+        </div>
+        <div class="wrapper-cards-news">
+            <div class="card-news">
+                <img src="images/news_wrapper/news1.png" class="image-card-news">
+                <p>Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed dousmod tempor incididunt </p>
+                <div class="button-wrapper">
+                    <p class="button-name">Читать</p>
+                    <img src="images/news_wrapper/right-arrow-of-straight-thin-line.png">
+                </div>
+            </div>
+            <div class="card-news">
+                <img src="images/news_wrapper/news2.png" class="image-card-news">
+                <p>Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed dousmod tempor incididunt </p>
+                <div class="button-wrapper">
+                    <p class="button-name">Читать</p>
+                    <img src="images/news_wrapper/right-arrow-of-straight-thin-line.png">
+                </div>
+            </div>
+            <div class="card-news">
+                <img src="images/news_wrapper/news3.png" class="image-card-news">
+                <p>Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed dousmod tempor incididunt </p>
+                <div class="button-wrapper">
+                    <p class="button-name">Читать</p>
+                    <img src="images/news_wrapper/right-arrow-of-straight-thin-line.png">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    $('.description_menu_item').click(()=>{
+        $('.wrapper_params').css('display', 'none');
+        $('.product_description').css('display', 'flex');
+        $('.description_menu_item').css('background-color', '#CFA166');
+        $('.description_menu_item').css('color', 'white');
+        $('.params_menu_item').css('background-color', 'white');
+        $('.params_menu_item').css('color', '#CFA166');
+    })
+    $('.params_menu_item').click(()=>{
+        $('.product_description').css('display', 'none');
+        $('.wrapper_params').css('display', 'flex');
+        $('.params_menu_item').css('background-color', '#CFA166');
+        $('.params_menu_item').css('color', 'white');
+        $('.description_menu_item').css('background-color', 'white');
+        $('.description_menu_item').css('color', '#CFA166');
+    })
+</script>
+
+
+
+<footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5440389.873629985!2d26.692995681380157!3d48.255899442008705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2z0KPQutGA0LDQuNC90LA!5e0!3m2!1sru!2sua!4v1585753012974!5m2!1sru!2sua" width="100%" height="577" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="wrapper-footer">
+        <div class="footer-info">
+            <p class="about-us-footer">Контакты</p>
+            <div class="container-footer-card">
+                <div class="footer-card">
+                    <p class="info-of-center">КИЕВ, ТЦ “4ROOM”</p>
+                    <p class="info-number">098 932 65 46</p>
+                </div>
+                <div class="footer-card">
+                    <p class="info-of-center">КИЕВ, ТЦ “4ROOM”</p>
+                    <p class="info-number">098 932 65 46</p>
+                </div>
+                <div class="footer-card-last">
+                    <p class="info-of-center">КИЕВ, ТЦ “4ROOM”</p>
+                    <p class="info-number">098 932 65 46</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-down">
+        <div class="wrapper-footer-down">
+            <a href = "index.html"><img src="images/black-logo.png"></a>
+            <ul class ="footer-menu">
+                <li><a href = "index.html">Главная</a></li>
+                <li><a href ="catalog.html">Каталог</a></li>
+                <li><a href = "news.html">Акции и новости</a></li>
+                <li><a href = "contact">Контакты</a></li>
+            </ul>
+            <div class="button-footer">Обратный звонок</div>
+        </div>
+    </div>
+</footer>
+<script src="scripts/header.js"></script>
+<script src="scripts/call-back-popup.js"></script>
+<script src="scripts/calculation-popup.js"></script>
+<script src="scripts/card_images.js"></script>
+<script src="scripts/slider_card_product.js"></script>
+</body>
+</html>
